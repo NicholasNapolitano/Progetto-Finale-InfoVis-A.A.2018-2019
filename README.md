@@ -58,7 +58,7 @@ La versione di [d3.js](https://github.com/d3/d3) utilizzata per questo progetto 
 
 ## Anteprime grafiche
 <p align="justify">
-<b>Grafo Completo</b>
+<b>Grafo Completo (Visualizzazione Inefficace)</b>
 
 ![alt text](img/Grafo_Completo.png "Grafo Completo")
 
