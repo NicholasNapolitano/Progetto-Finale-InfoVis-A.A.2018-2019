@@ -22,7 +22,7 @@ console.log(image2);
 
         
 image1.onclick = function(event) {
-        window.open("https://it.wikipedia.org/wiki/" +nome);
+        window.open("https://marvelcinematicuniverse.fandom.com/wiki/" +nome);
 };
 		
 image2.onclick = function(event) {

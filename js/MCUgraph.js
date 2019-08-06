@@ -309,7 +309,7 @@
 			.on('mouseover', function(d){  
 				new_tooltip.style("visibility", "visible");                        
 				if(d.color =="orange"){
-					new_tooltip.select('.descr').html(d.phase.bold() + "  ;  ".bold() + d.date.bold());     
+					new_tooltip.select('.descr').html(d.date.bold() + "  (".bold() + d.phase.bold() + ")".bold());     
 			        new_tooltip.style('display', 'block')
 					var tmp = getHeroes(d.id);
 					for(var i=0; i<tmp.length; i++){
