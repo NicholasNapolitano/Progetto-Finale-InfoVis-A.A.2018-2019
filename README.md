@@ -35,7 +35,7 @@ The graph is provided in GraphML format. Each node has a data key type that desc
 
 - <p align="justify">Disposizione bipartita dei nodi su due colonne distinte: a sinistra i <i><b>Film</b></i>, a destra gli <i><b>Eroi</b></i>. Gli archi del grafo completo vengono mostrati semi-trasparenti. Gli archi relativi ad un certo nodo vengono evidenziati dinamicamente quando il puntatore del mouse si posiziona sopra di esso.</p>
 
-- <p align="justify"> Passando con il puntatore del mouse sui vari nodi è possibile visionare ulteriori dettagli: per i film, la Fase dela Marvel Cinematic Universe in cui viene catalogato e la data di uscita, mentre per gli eroi il loro potere. Tali informazioni non sono presenti nel Json reperibile in rete, ma sono state inserite custom dall'autore</p>
+- <p align="justify"> Passando con il puntatore del mouse sui vari nodi è possibile visionare ulteriori dettagli: per i film, la Fase dela Marvel Cinematic Universe in cui viene catalogato e la data di uscita, mentre per gli eroi il loro potere. Tali informazioni non sono presenti nel grafo reperibile in rete, ma sono state inserite custom dall'autore.</p>
 
 - <p align="justify">In alto è presente una legenda. Vi è una parte fissa ed una dinamica. La parte fissa identifica i film (a sinistra) e gli eroi (a destra), mentre la parte dinamica indica per ogni film selezionato il numero di eroi presenti, mentre per ogni eroe selezionato indica il numero di film in cui è comparso.</p>
 
