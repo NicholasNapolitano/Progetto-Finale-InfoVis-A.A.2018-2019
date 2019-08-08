@@ -33,11 +33,13 @@ The graph is provided in GraphML format. Each node has a data key type that desc
 
 ## Funzionalità Progettuali
 
-- <p align="justify">Disposizione bipartita dei nodi su due colonne distinte: a sinistra i <i><b>Film</b></i>, a destra gli <i><b>Eroi</b></i>. Il grafo non viene mostrato per intero vista la sua alta densità di collegamenti, bensì gli archi relativi ad un certo nodo vengono creati dinamicamente quando il puntatore del mouse si posiziona sopra di esso.</p>
+- <p align="justify">Disposizione bipartita dei nodi su due colonne distinte: a sinistra i <i><b>Film</b></i>, a destra gli <i><b>Eroi</b></i>. Gli archi del grafo completo vengono mostrati semi-trasparenti. Gli archi relativi ad un certo nodo vengono evidenziati dinamicamente quando il puntatore del mouse si posiziona sopra di esso.</p>
 
-- <p align="justify"> Passando con il mouse sui vari nodi è possibile visionare ulteriori dettagli: per i film, la Fase dela Marvel Cinematic Universe in cui viene catalogato e la data di uscita, mentre per gli eroi il loro potere.</p>
+- <p align="justify"> Passando con il puntatore del mouse sui vari nodi è possibile visionare ulteriori dettagli: per i film, la Fase dela Marvel Cinematic Universe in cui viene catalogato e la data di uscita, mentre per gli eroi il loro potere.</p>
 
-- <p align="justify">In basso a sinistra è presente una legenda. Vi è una parte fissa ed una dinamica. La parte fissa identifica i film e gli eroi, mentre la parte dinamica indica per ogni film selezionato il numero di eroi presenti, mentre per ogni eroe selezionato indica il numero di film in cui è comparso.</p>
+- <p align="justify">In alto è presente una legenda. Vi è una parte fissa ed una dinamica. La parte fissa identifica i film (a sinistra) e gli eroi (a destra), mentre la parte dinamica indica per ogni film selezionato il numero di eroi presenti, mentre per ogni eroe selezionato indica il numero di film in cui è comparso.</p>
+
+- <p align="justify">Quando si punta su un nodo, vengono visualizzati i vicini di I e di II livello. Pertanto, per un film, vengono evidenziati gli eroi presenti in esso e in quali altri film sono comparsi; per un eroe, invece, venogono visualizzati i film in cui compare e quali altri eroi sono presenti. I collegamenti di II livello sono evidenziati in magenta, così come i nodi raggiunti da questi ultimi. La legenda dinamica mostra anche le informazioni relative al II livello di profondità dei collegamenti: per ogni film, indica anche il numero di altri film in cui gli eroi sono presenti, mentre per ogni eroe indica anche il numero di altri eroi presenti nei film in cui è comparso.</p>
 
 - <p align="justify">Cliccando su un nodo, è possibile accedere ad ulteriori informazioni su di esso. Viene creata una schermata intermedia in cui si può scegliere cosa visionare. Sia per i film che per gli eroi è possibile accedere alla pagina Marvel Cinematic Universe Wiki ad essi relativa. Solo per i film, è possibile visionarne il trailer sulla piattaforma You Tube, mentre per gli eroi è possibile visualizzarne le foto presenti su Google Immagini</p>
 
@@ -58,23 +60,23 @@ La versione di [d3.js](https://github.com/d3/d3) utilizzata per questo progetto 
 
 ## Anteprime grafiche
 <p align="justify">
-<b>Grafo Completo (Visualizzazione Inefficace)</b>
+<b>Grafo Completo (Schermata Iniziale)</b>
 
-![alt text](img/Grafo_Completo.png "Grafo Completo")
+![alt text](img/Schermata_Iniziale.png "Grafo Completo")
 
 </p>
 
 <p align="justify">
-<b>Visualizzazione Archi Film-Eroi</b>
+<b>Visualizzazione Archi Film-Eroi-Film</b>
 
-![alt text](img/Archi_Film_Eroi.png "Archi Film-Eroi")
+![alt text](img/Archi_Film_Eroi_Film.png "Archi Film-Eroi-Film")
 
  </p>
 
 <p align="justify">
-<b>Visualizzazione Archi Eroe-Film</b>
+<b>Visualizzazione Archi Eroe-Film-Eroi</b>
 
-![alt text](img/Archi_Eroe_Film.png "Archi Eroe-Film")
+![alt text](img/Archi_Eroe_Film_Eroi.png "Archi Eroe-Film-Eroi")
 
  </p>
  
